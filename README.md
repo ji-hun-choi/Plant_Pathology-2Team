@@ -3,12 +3,8 @@
 
 
 <br>
-  <img src="https://img.shields.io/badge/Tensorflow-orange?logo=Tensorflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Numpy-blue?logo=Numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-gray?logo=Pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pytorch-red?logo=Pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tensorflow-orange?logo=Tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/Numpy-blue?logo=Numpy&logoColor=white"/> <img src="https://img.shields.io/badge/Pandas-gray?logo=Pandas&logoColor=white"/> <img src="https://img.shields.io/badge/Pytorch-red?logo=Pytorch&logoColor=white"/>
 </br>
-
 
 # Kaggle - [Plant Pathology 2020 - FGVC7](https://www.kaggle.com/competitions/plant-pathology-2020-fgvc7/overview)
 
