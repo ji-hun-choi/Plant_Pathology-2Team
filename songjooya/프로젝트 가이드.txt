@@ -1,0 +1,42 @@
+<아래의 3가지 문제중 한가지만 선택하여 진행>
+
+제목 : Chest X-Ray Images (Pneumonia)
+설명 : 흉부 엑스선 이미지를 기반으로 정상인지 폐렴인지를 판단
+링크 : https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+문제 유형 : 이진 분류
+성능 측정 : F1 Score
+
+제목 : Plant Pathology 2020 - FGVC7
+설명 : 잎사귀 사진을 보고 잎사귀가 어떤 질병에 걸렸는지 식별
+링크 : https://www.kaggle.com/competitions/plant-pathology-2020-fgvc7
+문제 유형 : 다중 분류
+성능 측정 : ROC AUC
+
+제목 : Facial Keypoints Detection
+설명 : 얼굴의 특징점(keypoints) 예측
+링크 : https://www.kaggle.com/competitions/facial-keypoints-detection/
+문제 유형 : 수치 예측
+성능 측정 : RMSE
+
+
+딥러닝 예측 모델 만들기 (아래의 내용이 포함되어야 함)
+1. 데이터 준비 과정 
+(1) 훈련/검증/테스트 데이터 분리
+(2) 데이터셋 클래스 정의(자체 제공, 나만의 데이터셋)
+(3) 이미지 변환기(torchvision, albumentation, 나만의 전처리기)
+(4) 데이터셋 생성/데이터로더 생성
+
+2. 모델 생성
+(1) CNN 모델을 만들기 or pretrained 모델 활용 가능
+(2) 손실함수, 옵티마이저, 학습률, 학습 스케쥴러
+
+3. 모델 훈련 및 성능 검증
+
+4. 예측 및 제출(캐글에서 평가받을 수 있음)
+
+5. 성능 개선 과정에 대한 질문에 답변 작성하기
+      Q1) 어떤 옵티마이저, 로스 함수를 사용했는지?
+      Q2) 처음 시도했던 Network Architecture는 어떤 종류인지?
+      Q3) 이후 시도해봤던 Network 들은 무엇인지?
+      Q4) 과대적합을 피하기 위해 했던 작업들은 무엇인지?
+      Q5) 중요 하이퍼파라미터 (batch size, epoch 수, learning rate 등)은 어떻게 결정했는지?
